@@ -6,6 +6,9 @@
 *DOMAIN*: REACT.JS WEB DEVELOPMENT
 *DURATION*: 4 WEEKS
 *MENTOR*: NEELA SANTOSH
+*OUTPUT*: ![Image](https://github.com/user-attachments/assets/2db1422b-1e0c-4d5f-b165-98ae7ff3a9a5)
+![Image](https://github.com/user-attachments/assets/ffd8e89a-c879-4335-bc4e-86394a6dd495)
+
 *DESCRIPTION*: The Weather Dashboard is a fully responsive, dynamic web application that enables users to retrieve real-time weather information and a 5-day forecast by simply entering the name of a city. Built using ReactJS, Axios, and the OpenWeatherMap API, this project demonstrates a practical use of API integration in frontend development while showcasing modern UI design, dynamic styling, and user-centric error handling.
 
 This project was created as part of a hands-on learning module in ReactJS. The goal was to develop an interactive application that fetches external data and updates the UI dynamically based on the data received. In this case, weather information is retrieved from OpenWeatherMap's public API, processed, and visually represented in a clean, user-friendly format.
