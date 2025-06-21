@@ -1,12 +1,48 @@
-# React + Vite
+#WeatherApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+"Company": CODTECH IT SOLUTION
+*NAME*: PALLAVI WAGH
+*INTERN ID*:CT04DG1747
+*DOMAIN*: REACT.JS WEB DEVELOPMENT
+*DURATION*: 4 WEEKS
+*MENTOR*: NEELA SANTOSH
+*DESCRIPTION*: The Weather Dashboard is a fully responsive, dynamic web application that enables users to retrieve real-time weather information and a 5-day forecast by simply entering the name of a city. Built using ReactJS, Axios, and the OpenWeatherMap API, this project demonstrates a practical use of API integration in frontend development while showcasing modern UI design, dynamic styling, and user-centric error handling.
 
-Currently, two official plugins are available:
+This project was created as part of a hands-on learning module in ReactJS. The goal was to develop an interactive application that fetches external data and updates the UI dynamically based on the data received. In this case, weather information is retrieved from OpenWeatherMap's public API, processed, and visually represented in a clean, user-friendly format.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Project Objectives
+The core aim of this project was to:
 
-## Expanding the ESLint configuration
+Understand the basics of API integration with React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Learn how to manage and update state using useState and handle asynchronous data fetching with async/await
+
+Implement conditional rendering based on user input and API responses
+
+Create responsive layouts and stylings using plain CSS
+
+Display both current and future weather data in a visually engaging way
+
+🔧 Key Features
+🔍 City-based Search: Users can type any valid city name to retrieve current weather conditions.
+
+⛅ Real-Time Weather Info: The application fetches current temperature, humidity, wind speed, and condition.
+
+📅 5-Day Forecast: Displays the weather forecast at daily intervals using filtered API data.
+
+🎨 Dynamic Backgrounds: The UI dynamically changes background gradients based on weather conditions (sunny, cloudy, rainy, snowy, etc.).
+
+❌ Error Handling: If the user enters an invalid or unrecognized city, a friendly error message is displayed.
+
+💻 Responsive Design: Works across desktops, tablets, and mobile devices.
+
+🛠️ Tech Stack
+ReactJS – For building UI components and managing application state
+
+Axios – To perform API calls to the OpenWeatherMap service
+
+Vite – For fast bundling and efficient development
+
+OpenWeatherMap API – To fetch weather and forecast data
+
+CSS – For styling and responsive layout
