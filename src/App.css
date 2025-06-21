@@ -1,0 +1,85 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+  min-height: 100vh;
+  transition: 0.5s;
+  font-family: Arial, sans-serif;
+}
+
+.input-section {
+  margin: 1rem auto;
+}
+
+input {
+  padding: 0.5rem;
+  width: 250px;
+  margin-right: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.weather-card {
+  background-color: #ffffffcc;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Forecast Styling */
+.forecast {
+  margin-top: 2rem;
+}
+
+.forecast-cards {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.forecast-card {
+  background-color: #ffffffcc;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 120px;
+  text-align: center;
+}
+
+/* Dynamic backgrounds */
+.app.sunny {
+  background: linear-gradient(to top, #ffe259, #ffa751);
+}
+.app.cloudy {
+  background: linear-gradient(to top, #bdc3c7, #2c3e50);
+}
+.app.rainy {
+  background: linear-gradient(to top, #4e54c8, #8f94fb);
+}
+.app.snowy {
+  background: linear-gradient(to top, #e6dada, #274046);
+}
+.app.default {
+  background: linear-gradient(to top, #a2c0f8, #e2ecf3);
+}
